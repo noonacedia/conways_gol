@@ -9,6 +9,8 @@ This is kinda my personal exercise in order to learn different languages. Below 
 * Python - in plan;
 * Clojure - in plan.
 
+Implementations are written and tested on Linux machine (x64 Ubuntu 22.04.3). Windows compatibility isn't coming (at least for now).
+
 ### How to play?
 
 There are no ready implementations yet.
