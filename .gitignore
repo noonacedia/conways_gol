@@ -1,3 +1,9 @@
+# LSP utils 
+compile_commands.json
+
+# Cache
+.cache
+
 # Prerequisites
 *.d
 
