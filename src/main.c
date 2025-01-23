@@ -33,10 +33,16 @@ int main(void) {
   const int fps = 100;
 
   InitWindow(screenWidth, screenHeight, screenTitle);
-  Vector2 cameraVectorOffset = {0, 0};
-  Vector2 cameraVectorTarget = {0, 0};
-  Camera2D camera = {cameraVectorOffset};
-  camera.zoom = 1.0f;
+  Vector2 cameraOffsetVector = {0, 0};
+  Vector2 cameraTargetVector = {0, 0};
+  float rotation = 0.0f;
+  float zoom = 0.5f;
+  Camera2D camera = {
+      .offset = cameraOffsetVector,
+      .target = cameraTargetVector,
+      .rotation = rotation,
+      .zoom = zoom,
+  };
   SetTargetFPS(fps);
 
   while (!WindowShouldClose()) {
